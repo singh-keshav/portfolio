@@ -1,0 +1,15 @@
+.leftDiv {
+    background-color: red;
+    width: 47vw;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+  }
+  .rightDiv {
+    background-color: yellow;
+    width: 47vw;
+    height: 100vh;
+    padding: 20px 2px;
+    box-sizing: border-box;
+    position: relative;
+  }

@@ -1,0 +1,46 @@
+.box {
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3), 0 15px 15px rgba(0, 0, 0, 0.22);
+  /* max-width: 800px; */
+  margin: auto;
+  position: relative;
+  display: flex;
+}
+
+.leftDiv {
+  background-color: yellow;
+  width: 47vw;
+  height: 100vh;
+
+  float: left;
+}
+.rightDiv {
+  background-color: red;
+  width: 47vw;
+  height: 100vh;
+  float: left;
+  padding: 20px 2px;
+  box-sizing: border-box;
+}
+
+.listLeft {
+  display: inline-block;
+  /* padding-bottom: 12px; */
+}
+
+.listRight {
+  display: inline-block;
+  /* padding-bottom: 12px; */
+}
+
+h1.border:after {
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  text-align: center;
+  bottom: -15px;
+  left: 0;
+  margin: 0;
+  z-index: 1;
+  content: "";
+  background-color: #de3926;
+}
