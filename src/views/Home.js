@@ -1,4 +1,5 @@
 import styles from "./home.module.css";
+import background from "./homeBackground.jpg"
 
 const Home = () => {
   return (
@@ -13,13 +14,14 @@ const Home = () => {
     //   </div>
     // </div>
 
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex" }} className={styles.homeContainer}>
       <div className={styles.leftDiv}>
         <h1 className={styles.firstName}>Keshav</h1>
       </div>
       <div className={styles.rightDiv}>
         <h1 className={styles.lastName}>Singh</h1>
         <h1 className={styles.position}>FullStack Developer</h1>
+        <div className={styles.socialMedia}></div>
       </div>
     </div>
   );

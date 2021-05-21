@@ -1,20 +1,17 @@
-
-.navbarContainer{
-    width:6vw;
-    background-color: rgb(43, 41, 41);
-    height: 605px;
-    padding:0px;
-    margin: 0px;
-    /* position: sticky; */
-
+.navbarContainer {
+  width: 6vw;
+  background-color: rgb(43, 41, 41);
+  height: 605px;
+  padding: 0px;
+  margin: 0px;
+  /* position: sticky; */
 }
-.navlinksContainer{
-   list-style: none;
-   /* padding-left: 0px; */
-   padding: 0px 10px;
-   margin: 0px;
+.navlinksContainer {
+  list-style: none;
+  /* padding-left: 0px; */
+  padding: 0px 10px;
+  
 }
 
-.iconSize{
-
+.iconSize {
 }

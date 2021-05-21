@@ -1,116 +1,49 @@
-/* div className={styles.firstName}></div>
-      <div className={styles.lastName}></div>
-      <div className={styles.position}></div>
-      <div className={styles.socialMedia}></div> */
-
-/* .firstName {
-  width: 200px;
-  height: 50px;
-  background-color: #de3926;
-  color: white;
-  font-size: 44px;
-  position: relative;
-  top: 100px;
-  left: 400px;
-  animation: firstNameAnimation;
-  animation-duration: 1s;
-}
-
-@keyframes firstNameAnimation {
-  0% {
-    top: 400px;
-    left: 400px;
-  }
-  100% {
-    top: 100px;
-    left: 400px;
-  }
-}
-
-.lastName {
-  width: 200px;
-  height: 50px;
-  background-color: #222;
-  position: relative;
-  color: white;
-  font-size: 44px;
-  top: 50px;
-  left: 600px;
-  animation: lastNameAnimation;
-  animation-duration: 1s;
-}
-
-@keyframes lastNameAnimation {
-  0% {
-    top: 0px;
-    left: 600px;
-  }
-  100% {
-    top: 50px;
-    left: 600px;
-  }
-}
-
-.position {
-  width: 200px;
-  height: 25px;
-  background-color: yellow;
-  position: relative;
-  top: 50px;
-  left: 600px;
-  color: black;
-  font-size: 20px;
-  animation: PositionAnimation;
-  animation-duration: 1s;
-}
-@keyframes PositionAnimation {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 200px;
-  }
-}
-
-.socialMedia {
-  position: relative;
-  width: 200px;
-  height: 50px;
-  top: 390px;
-  left: 600px;
-  background-color: white;
-  color: grey;
-  animation-name: socialMediaAnimation;
-  animation-duration: 1s;
-}
-
-@keyframes socialMediaAnimation {
-  0% {
-    height: 0px;
-  }
-  100% {
-    height: 50px;
-  }
-} */
-
 * {
   box-sizing: border-box;
 }
 
+.homeContainer{
+  background-image: url(homeBackground.jpg);
+}
+
 .leftDiv {
-  background-color: red;
+  /* background-color: red; */
   width: 47vw;
   height: 100vh;
   position: relative;
   z-index: 2;
+  animation: topToBottom;
+  animation-duration: 1s;
+}
+@keyframes topToBottom {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    /* width: 200px; */
+    transform: translateY(0%);
+  }
 }
 .rightDiv {
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 47vw;
   height: 100vh;
   padding: 20px 2px;
   box-sizing: border-box;
   position: relative;
+  padding: 50px;
+  overflow-y: scroll;
+  animation: bottomToTop;
+  animation-duration: 1s;
+}
+@keyframes bottomToTop {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    /* width: 200px; */
+    transform: translateY(0%);
+  }
 }
 
 .firstName {

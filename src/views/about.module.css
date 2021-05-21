@@ -1,46 +1,144 @@
-.box {
-  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3), 0 15px 15px rgba(0, 0, 0, 0.22);
-  /* max-width: 800px; */
-  margin: auto;
-  position: relative;
-  display: flex;
-}
-
-.leftDiv {
-  background-color: yellow;
-  width: 47vw;
-  height: 100vh;
-
-  float: left;
-}
-.rightDiv {
-  background-color: red;
-  width: 47vw;
-  height: 100vh;
-  float: left;
-  padding: 20px 2px;
+* {
   box-sizing: border-box;
 }
 
-.listLeft {
-  display: inline-block;
-  /* padding-bottom: 12px; */
+.leftDiv {
+  background-color: red;
+  width: 47vw;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  animation: topToBottom;
+  animation-duration: 1s;
+}
+@keyframes topToBottom {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    /* width: 200px; */
+    transform: translateY(0%);
+  }
+}
+.rightDiv {
+  /* background-color: yellow; */
+  width: 47vw;
+  height: 100vh;
+  padding: 20px 2px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 50px;
+  overflow-y: scroll;
+  animation: bottomToTop;
+  animation-duration: 1s;
+}
+@keyframes bottomToTop {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    /* width: 200px; */
+    transform: translateY(0%);
+  }
 }
 
-.listRight {
-  display: inline-block;
-  /* padding-bottom: 12px; */
-}
-
-h1.border:after {
-  width: 100px;
-  height: 2px;
-  position: absolute;
-  text-align: center;
-  bottom: -15px;
-  left: 0;
-  margin: 0;
-  z-index: 1;
+h2::after {
+  display: block;
   content: "";
-  background-color: #de3926;
+  width: 15%;
+  height: 3px;
+  background: red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+h2 {
+  position: relative;
+  /* text-align: left; */
+}
+
+h2,
+h3,
+h4,
+p {
+  text-align: left;
+}
+
+p {
+  color: #949494;
+  margin: 5px 0px 30px 0px;
+}
+
+li {
+  padding: 10px 0px;
+  color: #949494;
+}
+
+.leftButton {
+  background-color: black;
+  height: 45px;
+  width: 100px;
+  color: white;
+}
+
+.rightButton {
+  border: 3px solid black;
+  height: 45px;
+  width: 200px;
+  color: black;
+  background-color: white;
+  margin-left: 20px;
+}
+
+button {
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: RED;
+}
+
+.iconContainer {
+  padding: 30px;
+  line-height: 25px;
+}
+.icon {
+  border-radius: 50%;
+  background-color: rgb(187, 186, 186);
+  width: 100px;
+  height: 100px;
+}
+
+.icon:hover {
+  /* border-radius: 10%; */
+  animation: rubber;
+  animation-duration: 700ms;
+  animation-timing-function: ease-out;
+  cursor: pointer;
+}
+
+@keyframes rubber {
+  0% {
+    transform: scale(1, 1);
+  }
+  30% {
+    transform: scale(1.4, 0.6);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+
+  80% {
+    transform: scale(1.1, 0.9);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+span {
+  color: grey;
+  margin: 20px;
 }
