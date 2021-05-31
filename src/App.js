@@ -8,6 +8,7 @@ import Home from "./views/Home";
 import Navbar from "./views/Navbar";
 import About from "./views/About";
 import Resume from "./views/Resume";
+import Contact from "./views/Contact";
 
 function App() {
   const w = window.innerWidth;
@@ -30,6 +31,9 @@ function App() {
             </Route>
             <Route path="/resume">
               <Resume />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
           </Switch>
         </div>

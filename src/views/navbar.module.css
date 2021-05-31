@@ -1,17 +1,100 @@
-.navbarContainer {
-  width: 6vw;
+.containerBox_navbar {
+  width: 70px;
   background-color: rgb(43, 41, 41);
-  height: 605px;
+  height: 100%;
   padding: 0px;
   margin: 0px;
   /* position: sticky; */
 }
-.navlinksContainer {
+.containerBox_navbar_ul {
   list-style: none;
   /* padding-left: 0px; */
   padding: 0px 10px;
-  
+  height: inherit;
+  margin: 0px;
 }
 
 .iconSize {
+}
+
+.linkName {
+  display: none;
+  top: 25%;
+  left: 60px;
+  z-index: 99;
+  padding: 10px;
+  position: relative;
+  animation: wobbelEffect;
+}
+.homeLink {
+  /* background-color: toma to; */
+  position: relative;
+}
+
+.homeLink:hover .linkName {
+  background-color: grey;
+  color: white;
+  display: block;
+  position: absolute;
+  left: 67px;
+  /* animation: wobbelEffect;
+  animation-delay: 500ms; */
+
+  /* left: 50px; */
+  /* top:-20px; */
+}
+
+@keyframes wobbelEffect {
+  0% {
+    /* translate: rotate(-45deg); */
+    background-color: yellow;
+  }
+  /* 30% {
+    translate: rotate(0deg);
+  }
+  60% {
+    translate: rotate(45deg);
+  } */
+  100% {
+    /* translatz-index: 99;
+    bottom: 0px;e: rotate(0deg); */
+    background-color: orange;
+  }
+}
+
+.linkNameTriangle {
+  transform: rotate(45deg);
+  height: 10px;
+  width: 10px;
+  background-color: grey;
+  position: absolute;
+  top: 40%;
+  left: -5px;
+}
+
+@media screen and (max-width: 920px) {
+  .containerBox_navbar {
+    z-index: 99;
+    display: flex;
+    /* width: 100%; */
+    /* height: -moz-fit-content; */
+    height: fit-content;
+    background: red;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0px;
+
+  }
+  .containerBox_navbar_ul {
+    position: fixed;
+    background: red;
+    /* top: 0px; */
+    display: flex;
+    height: auto;
+    z-index: 99;
+    bottom: 0px;
+    width: 100%;
+    justify-content: space-around;
+  }
 }

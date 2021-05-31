@@ -1,0 +1,54 @@
+.containerBox_contact {
+  display: flex;
+}
+
+.leftDiv {
+  background-color: red;
+  width: 47vw;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  animation: topToBottom;
+  animation-duration: 1s;
+}
+@keyframes topToBottom {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    /* width: 200px; */
+    transform: translateY(0%);
+  }
+}
+.rightDiv {
+  background-color: white;
+  width: 47vw;
+  height: 100vh;
+  padding: 20px 2px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 50px;
+  overflow-y: scroll;
+  animation: bottomToTop;
+  animation-duration: 1s;
+}
+@keyframes bottomToTop {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    /* width: 200px; */
+    transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .containerBox_contact {
+    
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .leftDiv{
+    width: auto;
+  }
+}

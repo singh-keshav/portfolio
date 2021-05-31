@@ -2,9 +2,16 @@
   box-sizing: border-box;
 }
 
+.containerBox_about {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
 .leftDiv {
   background-color: red;
-  width: 47vw;
+  flex: 1 3 400px;
+  /* width: 47vw; */
   height: 100vh;
   position: relative;
   z-index: 2;
@@ -22,8 +29,10 @@
 }
 .rightDiv {
   /* background-color: yellow; */
-  width: 47vw;
+  /* width: 47vw; */
   height: 100vh;
+  flex: 1 1 400px;
+
   padding: 20px 2px;
   box-sizing: border-box;
   position: relative;
@@ -79,15 +88,21 @@ li {
   height: 45px;
   width: 100px;
   color: white;
+  border: none;
 }
 
 .rightButton {
-  border: 3px solid black;
+  border: 2px solid black;
   height: 45px;
   width: 200px;
   color: black;
   background-color: white;
   margin-left: 20px;
+}
+
+.rightButton:active {
+  transform: scale(0.8);
+  transition: 0.5s;
 }
 
 button {
@@ -141,4 +156,22 @@ button:hover {
 span {
   color: grey;
   margin: 20px;
+}
+
+@media screen and (max-width: 920px) {
+  .containerBox_about {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightDiv {
+    overflow-y: unset;
+    width: auto;
+    padding: 10px;
+  }
+  .leftDiv{
+    width: auto;
+  }
+  .containerBox_about{
+    flex-direction: column ;
+  }
 }
