@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9ceeaace.chunk.css",
+    "main.js": "/portfolio/static/js/main.bd07b9af.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bd07b9af.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0abc1511.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0abc1511.js.map",
+    "static/js/2.be5e62fd.chunk.js": "/portfolio/static/js/2.be5e62fd.chunk.js",
+    "static/js/2.be5e62fd.chunk.js.map": "/portfolio/static/js/2.be5e62fd.chunk.js.map",
+    "static/js/3.31fc6934.chunk.js": "/portfolio/static/js/3.31fc6934.chunk.js",
+    "static/js/3.31fc6934.chunk.js.map": "/portfolio/static/js/3.31fc6934.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.9ceeaace.chunk.css.map": "/portfolio/static/css/main.9ceeaace.chunk.css.map",
+    "static/js/2.be5e62fd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.be5e62fd.chunk.js.LICENSE.txt",
+    "static/media/contactLeft.ab186a3c.jpg": "/portfolio/static/media/contactLeft.ab186a3c.jpg",
+    "static/media/homeBackground.f1121c68.jpg": "/portfolio/static/media/homeBackground.f1121c68.jpg",
+    "static/media/keshavSingh_resume.469e7e0a.pdf": "/portfolio/static/media/keshavSingh_resume.469e7e0a.pdf",
+    "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg",
+    "static/media/profilepic.594e4b8e.jpeg": "/portfolio/static/media/profilepic.594e4b8e.jpeg",
+    "static/media/thinkTwice.14ece369.jpg": "/portfolio/static/media/thinkTwice.14ece369.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0abc1511.js",
+    "static/js/2.be5e62fd.chunk.js",
+    "static/css/main.9ceeaace.chunk.css",
+    "static/js/main.bd07b9af.chunk.js"
+  ]
+}
