@@ -1,0 +1,373 @@
+{
+  "navbarContactNumber": "+919876543210",
+  "navbarEmail": "someemail@gmail.com",
+  "address": "10/A 180 second floor, near Jain Mandir, Vasundhara, Ghaziabad, Uttar Pradesh 201012",
+  "facebookLink": "",
+  "linkdinLink": "",
+  "youtubeLink": "",
+  "twitterLink": "",
+  "instagramLink": "",
+  "logoUrl": "/logo.png",
+  "navLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "About Us", "href": "/about" },
+    {
+      "label": "Services",
+      "href": "/service",
+      "subMenuItems": [
+        { "label": "Intro", "href": "/service/intro" },
+        { "label": "ROL", "href": "/service#rol" },
+        { "label": "Aim And Objective", "href": "/service#aim-and-objective" },
+        { "label": "Material And Method", "href": "/service#material-and-observation" },
+        { "label": "Result And Observations", "href": "/service#result-and-observation" },
+        { "label": "Discussions", "href": "/service#discussion" },
+        { "label": "Conclusions", "href": "/service" },
+        { "label": "References", "href": "/service" }
+      ]
+    },
+    { "label": "FAQ", "href": "/faq" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "home": {
+    "carouselImages": [
+      {
+        "imageUrl": "/carousel1.jpeg",
+        "header": "WELCOME TO EDUCATION HUBS",
+        "text": "At Weresearch , we are dedicated to providing comprehensive support for all your thesis needs. Whether you are at the beginning of your journey or finalizing your masterpiece, our expert team is here to assist you every step of the way."
+      },
+      {
+        "imageUrl": "/carousel2.jpeg",
+        "header": "WELCOME TO EDUCATION HUBS",
+        "text": "At Weresearch , we are dedicated to providing comprehensive support for all your thesis needs. Whether you are at the beginning of your journey or finalizing your masterpiece, our expert team is here to assist you every step of the way."
+      },
+      {
+        "imageUrl": "/carousel3.jpeg",
+        "header": "WELCOME TO EDUCATION HUBS",
+        "text": "At Weresearch , we are dedicated to providing comprehensive support for all your thesis needs. Whether you are at the beginning of your journey or finalizing your masterpiece, our expert team is here to assist you every step of the way."
+      }
+    ],
+    "carouselBelowImageAndText": {
+      "welcometext": "Welcome to Weresearch",
+      "imageUrl": "/graduation-background.jpg",
+      "heading": "Your One-Stop Solution for Crafting Exceptional Theses",
+      "paragraphs": [
+        "At Weresearch Hub, we are dedicated to providing comprehensive support for all your thesis needs. Whether you are at the beginning of your journey or finalizing your masterpiece, our expert team is here to assist you every step of the way."
+      ]
+    },
+    "leftRighTextAndImage": [
+      {
+        "heading": "OUR COMPANY GOAL",
+        "paragraphs": [
+          "It is a long established fact that readers will be following the various services which we are providing",
+          "The Core Values that Drive Everything Quickly incubate functional channels with multidisciplinary architectures. Authoritatively fabricate formulate exceptional innovation."
+        ],
+        "imageUrl": "/arrows-target.jpg",
+        "tabs": [],
+        "highlights": [
+          "Over 13 years of experience",
+          "2857+ successfully executed projects in a year",
+          "Exceptional work quality writing"
+        ]
+      }
+    ],
+    "cards": [
+      {
+        "heading": "Over 13 years of experience",
+        "text": "Grow your business on Resourceful Education  for Professionals Reach customers while they shop. Our offerings help you achieve your advertising goals while helping to bring a global audience of customers the products they're looking for."
+      },
+      {
+        "heading": "2857+ successfully executed projects in a year",
+        "text": "We develope website that enable you to efficiently sell a wide range of products or services online. Our websites enhance online credibility."
+      },
+      {
+        "heading": "Exceptional work quality writing",
+        "text": "we facilitate the business operations by delivering sophisticated applications that are smooth to function and easy to scale. In addition to this, we offer a full maintenance and support services to our clients"
+      }
+    ],
+    "testimonies": [
+      "“ I extend my heartfelt thanks to the participants of my study. Their willingness to contribute and share their experiences made this research possible and provided valuable insights that are crucial to the field of study!”",
+      "“ I am also grateful to my family and friends for their constant support and encouragement. Their understanding and motivation have been essential in overcoming the obstacles I encountered during this journey.!”",
+      "“ I would like to express my deepest gratitude to my thesis advisor, Thesis Hub, for their unwavering support, guidance, and encouragement throughout this research process. Their expertise and constructive feedback have been invaluable in shaping this work!”"
+    ]
+  },
+  "about": {
+    "leftRighTextAndImage": {
+      "heading": "Resourceful Education  for Professionals",
+      "tabs": [
+        {
+          "name": "Our Values",
+          "heading": "",
+          "paragraphs": [
+            "We are a Service provider, for researchers in need of any kind of academic writing or development which runs through the growth of carrier aspects and designed business model"
+          ],
+          "highlights": ["Pixel Perfect Design", "Unique & Minimal Design", "Efficiency & Accountability"]
+        },
+        {
+          "name": "Why Us",
+          "heading": "",
+          "paragraphs": [
+            "Educationhub.com Creating Solution is one of the leading and fastest software development companies in India. We are one of the top software development companies from central India, having expert professionals for software development; Web designing, Web Development, Open Source Development, Mobile Applications Development, BlockChain Development, POS Solutions, Payment Gateways SMS Provider, and Hosting Services. We cater our services to our clientele worldwide, specifically the UK, USA, and Australia."
+          ],
+          "highlights": []
+        },
+        {
+          "name": "Our Approach",
+          "heading": "",
+          "paragraphs": [
+            "Before we take action, we learn about your business firsthand. Together, we uncover what’s working, and what’s not, so we can address the root cause of your problem—not just the symptoms."
+          ],
+          "highlights": []
+        }
+      ],
+      "imageUrl": "/about-img.jpg",
+      "paragraphs": []
+    },
+    "cards": [
+      {
+        "heading": "",
+        "icon": "school",
+        "text": "If you’re looking for something new, you’re in the right place. Weresearch Writing Services strive to be industrious and innovative, offering our customers something they want, putting their desires at the top of our priority list."
+      },
+      {
+        "heading": "",
+        "icon": "rocket_launch",
+        "text": "IdeaLaunch, just as the name suggests, is a dedicated community of launching new ideas and innovations to their clients as well as software solutions.offering our customers something they want, our priority list."
+      },
+      {
+        "heading": "",
+        "icon": "biotech",
+        "text": "Develop contingency plans to address top of our priority unexpected challenges and mitigate their impact offering our customers something they want, putting their desires at the top of our priority list."
+      },
+      {
+        "heading": "",
+        "icon": "cloud",
+        "text": "Extend data security across multicloud, top of our priority list hybrid, and on-premises environments offering our customers something they want, putting their desires at the top of our priority list."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Weresearch ?",
+      "answer": "Weresearch  is a comprehensive service platform dedicated to assisting researchers and students in crafting exceptional theses. We provide support across all stages of thesis development, from introduction to conclusion."
+    },
+    {
+      "question": "Who can use Weresearch 's services?",
+      "answer": "Our services are available to students, researchers, and academicians at all levels, including undergraduates, postgraduates, and doctoral candidates."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "You can start by contacting us through our website or email. Our team will discuss your specific needs and provide a tailored solution to help you achieve your academic goals."
+    },
+    {
+      "question": "What does the Introduction Service Include?",
+      "answer": "Our Introduction service includes crafting a compelling introduction that establishes the context, states the research problem, highlights the significance, and outlines the structure of your thesis."
+    },
+    {
+      "question": "How Does Weresearch assist with the Review of Literature(ROL)?",
+      "answer": "We conduct comprehensive searches, critically evaluate relevant literature, and synthesize findings to ensure your research is built on a solid foundation of existing knowledge."
+    }
+  ],
+  "services": [
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Intro",
+      "slug": "intro",
+      "paragraphes": [
+        "The introduction sets the stage for your entire thesis. We help you craft a compelling introduction that:",
+        "",
+        "Establishes Context: Clearly defines the background of your research topic.",
+        "States the Problem: Articulates the research problem your study addresses.",
+        "Highlights Significance: Explains the importance and impact of your research.",
+        "Outlines Structure: Provides a roadmap of the thesis, guiding the reader through each section."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "ROL",
+      "slug": "rol",
+      "paragraphes": [
+        "Review of Literature (ROL)",
+        "",
+        "1. Comprehensive Searches: Identifies and analyzes relevant literature from reputable sources.",
+        "2. Critical Evaluations: Synthesizes findings, highlighting key trends, gaps, and controversies.",
+        "3. Contextual Connections: Relates existing knowledge to your research questions and objectives."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Aim and Objectives",
+      "slug": "aim-and-objectives",
+      "paragraphes": [
+        "Clear aims and objectives provide direction for your research. We assist in:",
+        "",
+        "1. Aligning with Research Questions: Ensuring your objectives address the key questions driving your research.",
+        "2. Setting Specific Objectives: Breaking down the aim into measurable, achievable objectives.",
+        "3. Defining Clear Goals: Articulating the primary aim of your study."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Material and Methods",
+      "slug": "material-and-methods",
+      "paragraphes": [
+        "Detailed methodology ensures replicability and scientific rigor. We help you",
+        "",
+        "1. Design Study Protocols: Develop robust study designs tailored to your research questions.",
+        "2. Describe Procedures: Provide precise descriptions of experimental or observational procedures.",
+        "3. Select Tools: Choose appropriate tools and instruments for data collection.",
+        "4. Analyze Data: Employ suitable statistical methods for data analysis, ensuring validity and reliability."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Results/Observations",
+      "slug": "results-observations",
+      "paragraphes": [
+        "Presenting your findings clearly and concisely is crucial. Our support includes:",
+        "",
+        "1. Organizing Data: Structuring results logically, often in tables and figures.",
+        "2. Highlighting Key Findings: Emphasizing the most significant observations.",
+        "3. Statistical Analysis: Providing detailed statistical analyses and interpretations.",
+        "4. Visual Aids: Creating graphs, charts, and diagrams to illustrate your results effectively."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Discussion",
+      "slug": "discussion",
+      "paragraphes": [
+        "The discussion section interprets your results in the context of existing research. We assist with:",
+        "",
+        "1. Comparative Analysis: Comparing your findings with previous studies to highlight similarities and differences.",
+        "2. Implications: Discussing the theoretical, practical, and policy implications of your results."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Conclusion",
+      "slug": "conclusion",
+      "paragraphes": [
+        "A strong conclusion summarizes your research and its contributions. We help you:",
+        "",
+        "1. Summarize Findings: Concisely recap the key findings of your study.",
+        "2. Highlight Contributions: Emphasize the unique contributions of your research to the field.",
+        "3. Suggest Applications: Discuss potential practical applications of your findings.",
+        "4. Propose Future Directions: Offer recommendations for future research based on your conclusions."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "References",
+      "slug": "references",
+      "paragraphes": [
+        "Proper citation enhances the credibility of your thesis. Our services include:",
+        "",
+        "1. Accurate Referencing: Ensuring all sources are correctly cited according to the required style guide (APA, MLA, Chicago, etc.).",
+        "2. Comprehensive Bibliography: Compiling a complete list of references used in your thesis.",
+        "3. Cross-Checking Sources: Verifying the accuracy and authenticity of cited sources."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Annexures",
+      "slug": "annexures",
+      "paragraphes": [
+        "Annexures provide additional supporting information. We assist in:",
+        "",
+        "1. Compiling Documents: Gathering supplementary materials such as questionnaires, raw data, and detailed protocols.",
+        "2. Organizing Content: Structuring annexures logically for easy reference.",
+        "3. Formatting: Ensuring annexures are professionally formatted and integrated into your thesis."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Master Chart",
+      "slug": "master-chart",
+      "paragraphes": [
+        "A master chart helps organize and analyze your data. We provide:",
+        "",
+        "1. Data Management: Organizing your data into a comprehensive and accessible format.",
+        "2. Analytical Tools: Using advanced tools to summarize and analyze your data effectively.",
+        "3. Visual Representation: Creating charts and tables that clearly represent your findings."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Plagiarism Removal",
+      "slug": "plagiarism-removal",
+      "paragraphes": [
+        "Maintaining originality is crucial. Our plagiarism removal services ensure:",
+        "",
+        "1. Original Content: Reviewing your work to ensure it is free from plagiarism.",
+        "2. Proper Citation: Ensuring all sources are appropriately cited.",
+        "3. Paraphrasing: Rewriting sections to enhance originality without altering the meaning."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Synopsis",
+      "slug": "synopsis",
+      "paragraphes": [
+        "A well-crafted synopsis is essential for submission to academic committees. We help you create:",
+        "",
+        "1. Concise Summaries: Providing a brief yet comprehensive overview of your research.",
+        "2. Clear Objectives: Highlighting the aims and objectives of your study.",
+        "3. Methodological Overview: Summarizing the research methods and key findings.",
+        "4. Significance: Emphasizing the importance and potential impact of your research."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Articles",
+      "slug": "articles",
+      "paragraphes": [
+        "Sharing your research through articles broadens its reach. We assist in:",
+        "",
+        "1. Manuscript Preparation: Converting your thesis into publishable articles.",
+        "2. Journal Selection: Identifying suitable journals for publication.",
+        "3. Submission Assistance: Guiding you through the submission process, including formatting and cover letter preparation."
+      ]
+    },
+    {
+      "imageUrl": "/grad-cap-diploma-and-stacked-books.jpg",
+      "heading": "Poster",
+      "slug": "poster",
+      "paragraphes": [
+        "Sharing your research through posters broadens its reach. We assist in:",
+        "",
+        "1. Design Services: Creating visually appealing and informative posters.",
+        "2. Content Summarization: Highlighting key points of your research concisely.",
+        "3. Professional Presentation: Ensuring your poster meets academic and professional standards."
+      ]
+    }
+  ],
+  "footer": {
+    "socialMedia": [
+      {
+        "imageUrl": "/facebook-48.png",
+        "link": "https://facebook.com",
+        "label": "Facebook"
+      },
+      {
+        "imageUrl": "/youtube-48.png",
+        "link": "https://youtube.com",
+        "label": "Youtube"
+      },
+      {
+        "imageUrl": "/whatsapp-48.png",
+        "link": "https://whatsapp.com",
+        "label": "whatsapp"
+      },
+      {
+        "imageUrl": "/twitterx-48.png",
+        "link": "https://x.com",
+        "label": "Twitter"
+      },
+      {
+        "imageUrl": "/linkedin-48.png",
+        "link": "https://linkedin.com",
+        "label": "Linkdin"
+      }
+    ]
+  }
+}
